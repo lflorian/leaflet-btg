@@ -1,0 +1,8 @@
+node_modules
+dist
+.DS_Store
+
+# Interne Daten – nicht öffentlich, gehen per Mail an den Webmaster
+public/terminals.json
+public/bilder/
+public/plan.svg

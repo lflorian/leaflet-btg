@@ -1,0 +1,5 @@
+[
+  {"id":"T-001","building":"Beispielgebäude A","location":"Haupteingang","x":1200,"y":900,"mdb":true},
+  {"id":"T-002","building":"Beispielgebäude A","location":"Hof","x":1260,"y":960},
+  {"id":"T-003","building":"Beispielgebäude B","location":"","mdb":true}
+]

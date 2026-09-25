@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DiAnE-Terminals</title>
+    <style>
+      :root { --marker: #555; --mdb: rgb(231 0 151); }
+      html, body, #map { height: 100%; margin: 0; }
+      #map { background: #f4f4f4; }
+      .terminal { background: var(--marker); border: 2px solid #fff; border-radius: 50%; box-shadow: 0 0 3px #000; }
+      .mdb-yes { --marker: var(--mdb); }
+      .building span { position: absolute; transform: translate(-50%, -50%); white-space: nowrap; padding: 3px 10px; border-radius: 12px; background: var(--marker); color: #fff; font: bold 13px sans-serif; box-shadow: 0 1px 3px #0006; }
+      .legend { padding: 6px 10px; background: #fff; border-radius: 4px; box-shadow: 0 1px 5px #0006; font: 13px/1.6 sans-serif; }
+      .legend i { display: inline-block; width: 10px; height: 10px; margin-right: 6px; vertical-align: -1px; border-radius: 50%; background: var(--marker); box-shadow: 0 0 2px #000; }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
